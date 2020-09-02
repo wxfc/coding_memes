@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'pg'
+gem 'bcrypt'
+gem 'httparty'
+gem 'pry'
+gem 'sinatra-contrib'
+gem 'sinatra-cross_origin'
+gem 'cloudinary'
