@@ -27,3 +27,6 @@ INSERT INTO memes (title, meme, user_id) VALUES ('i am god', 'https://i.redd.it/
 INSERT INTO memes (title, meme, user_id) VALUES (':)', 'https://i.redd.it/acc8ej2n8qh51.jpg', 4);
 
 INSERT INTO memes (title, meme, user_id) VALUES ('its only dumb if it doesnt work', 'https://i.redd.it/08sz26e91k841.jpg', 4);
+
+ALTER TABLE memes
+ADD COLUMN category TEXT;

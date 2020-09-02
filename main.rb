@@ -14,7 +14,7 @@ configure do
 end
 
 before do
-  response.headers['Access-Control-Allow-Origin'] = 'http://localhost:3000'
+  response.headers['Access-Control-Allow-Origin'] = 'http://codingxmemes.surge.sh/'
 end
 
 def json_body(request)
@@ -110,6 +110,6 @@ end
 options "*" do
   response.headers["Allow"] = "GET, PUT, POST, DELETE, OPTIONS"
   response.headers["Access-Control-Allow-Headers"] = "Authorization, Content-Type, Accept, X-User-Email, X-Auth-Token"
-  response.headers["Access-Control-Allow-Origin"] = "http://localhost:3000"
+  response.headers["Access-Control-Allow-Origin"] = "http://codingxmemes.surge.sh/"
   200
 end
