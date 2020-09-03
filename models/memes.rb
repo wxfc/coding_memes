@@ -33,3 +33,33 @@ def find_memes_by_user_id(user_id)
     meme = run_sql("SELECT * FROM memes WHERE user_id = #{user_id};")
     return meme
 end
+
+def find_one_meme_by_automation
+    memes = run_sql("SELECT * FROM memes WHERE category = 'automation';")
+    return memes
+end
+
+def find_one_meme_by_google
+    memes = run_sql("SELECT * FROM memes WHERE category = 'google';")
+    return memes
+end
+
+def find_one_meme_by_jobs
+    memes = run_sql("SELECT * FROM memes WHERE category = 'jobs';")
+    return memes
+end
+
+def find_one_meme_by_css
+    memes = run_sql("SELECT * FROM memes WHERE category = 'css';")
+    return memes
+end
+
+def find_one_meme_by_coder_logic
+    memes = run_sql("SELECT * FROM memes WHERE category = 'coder logic';")
+    return memes
+end
+
+def find_one_meme_by_general
+    memes = run_sql("SELECT * FROM memes WHERE category = 'general';")
+    return memes
+end

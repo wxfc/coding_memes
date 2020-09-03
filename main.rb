@@ -14,7 +14,7 @@ configure do
 end
 
 before do
-  response.headers['Access-Control-Allow-Origin'] = 'http://codingxmemes.surge.sh'
+  response.headers['Access-Control-Allow-Origin'] = 'http://localhost:3000'
 end
 
 def json_body(request)
@@ -45,6 +45,37 @@ get '/memes' do
   memes = find_all_memes
   json pg_result_to_array_of_hashes(memes)
 end
+
+get '/automation' do
+  memes = find_one_meme_by_automation
+  json pg_result_to_array_of_hashes(memes)
+end
+
+get '/google' do
+  memes = find_one_meme_by_google
+  json pg_result_to_array_of_hashes(memes)
+end
+
+get '/jobs' do
+  memes = find_one_meme_by_jobs
+  json pg_result_to_array_of_hashes(memes)
+end
+
+get '/css' do
+  memes = find_one_meme_by_css
+  json pg_result_to_array_of_hashes(memes)
+end
+
+get '/coder_logic' do
+  memes = find_one_meme_by_coder_logic
+  json pg_result_to_array_of_hashes(memes)
+end
+
+get '/general' do
+  memes = find_one_meme_by_general
+  json pg_result_to_array_of_hashes(memes)
+end
+
 
 get '/my-memes' do
   my_memes = find_memes_by_user_id(3)
@@ -110,6 +141,8 @@ end
 options "*" do
   response.headers["Allow"] = "GET, PUT, POST, DELETE, OPTIONS"
   response.headers["Access-Control-Allow-Headers"] = "Authorization, Content-Type, Accept, X-User-Email, X-Auth-Token"
-  response.headers["Access-Control-Allow-Origin"] = "http://codingxmemes.surge.sh"
+  response.headers["Access-Control-Allow-Origin"] = "http://localhost:3000"
   200
 end
+
+#http://codingxmemes.surge.sh

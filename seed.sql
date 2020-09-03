@@ -30,3 +30,55 @@ INSERT INTO memes (title, meme, user_id) VALUES ('its only dumb if it doesnt wor
 
 ALTER TABLE memes
 ADD COLUMN category TEXT;
+
+UPDATE memes
+SET category = 'automation'
+WHERE id = 3;
+
+UPDATE memes
+SET category = 'google'
+WHERE id = 4;
+
+UPDATE memes
+SET category = 'jobs'
+WHERE id = 5;
+
+UPDATE memes
+SET category = 'css'
+WHERE id = 6;
+
+UPDATE memes
+SET category = 'coder logic'
+WHERE id = 7;
+
+UPDATE memes
+SET category = 'student'
+WHERE id = 8;
+
+UPDATE memes
+SET category = 'general'
+WHERE id = 9;
+
+UPDATE memes
+SET category = 'student'
+WHERE id = 10;
+
+UPDATE memes
+SET category = 'coder logic'
+WHERE id = 11;
+
+UPDATE memes
+SET category = 'student'
+WHERE id = 12;
+
+UPDATE memes
+SET category = 'general'
+WHERE id = 13;
+
+UPDATE memes
+SET category = 'coder logic'
+WHERE id = 14;
+
+UPDATE memes
+SET category = 'coder logic'
+WHERE id = 15;
