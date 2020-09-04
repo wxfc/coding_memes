@@ -82,3 +82,48 @@ WHERE id = 14;
 UPDATE memes
 SET category = 'coder logic'
 WHERE id = 15;
+
+INSERT INTO memes (title, meme, category) VALUES ('corporate logic', 'https://i.redd.it/l0qwk81rfxk51.jpg', 'jobs');
+
+INSERT INTO memes (title, meme, category) VALUES ('never touch the ancient code', 'https://preview.redd.it/zwz1ahxylvk51.jpg?width=640&crop=smart&auto=webp&s=33dd64604ab5bf285cf50c48a66c8b4e0764b237', 'jobs');
+
+INSERT INTO memes (title, meme, category) VALUES ('i am code', 'https://i.redd.it/vl4cykj0hyk51.png', 'google');
+
+INSERT INTO memes (title, meme, category) VALUES ('nice', 'https://i.redd.it/7ptrlc47tuc51.jpg', 'automation');
+
+INSERT INTO memes (title, meme, category) VALUES ('if statements be like...', 'https://i.redd.it/6rbq35occu441.jpg', 'coder logic');
+
+INSERT INTO memes (title, meme, category) VALUES ('hired', 'https://i.redd.it/cq5m8tzg8az41.png', 'google');
+
+INSERT INTO memes (title, meme, category) VALUES ('its like fishing', 'https://i.redd.it/733evqt0w4y41.jpg', 'coder logic');
+
+INSERT INTO memes (title, meme, category) VALUES ('fml', 'https://i.redd.it/dcuj4sradth51.jpg', 'jobs');
+
+INSERT INTO memes (title, meme, category) VALUES ('chef engineer', 'https://i.redd.it/h8uhxvhurdh51.jpg', 'jobs');
+
+INSERT INTO memes (title, meme, category) VALUES ('america ruins everything', 'https://i.redd.it/th44b0a1dn041.jpg', 'css');
+
+INSERT INTO memes (title, meme, category) VALUES ('my poor child', 'https://i.redd.it/mar8p5zhhm131.jpg', 'general');
+
+INSERT INTO memes (title, meme, category) VALUES ('death is the only logical answer', 'https://external-preview.redd.it/Urf8FEO0_VnUgLHhiK7cigvcNgMWQcu5KfaDPEDPJ04.jpg?auto=webp&s=0e61987963f53951a0ade8417c3dc001c1730b91', 'general');
+
+INSERT INTO memes (title, meme, category) VALUES ('when someone else offers to help with my code', 'https://i.redd.it/hk54ti5n6tk11.png', 'coder logic');
+
+INSERT INTO memes (title, meme, category) VALUES ('trickery', 'https://i.redd.it/bka1gb843z7z.jpg', 'jobs');
+
+INSERT INTO memes (title, meme, category) VALUES ('finally, it was all worth it', 'https://i.redd.it/cfkgkauvr8w01.jpg', 'student');
+
+INSERT INTO memes (title, meme, category) VALUES ('good work....me', 'https://i.redd.it/2ohly4ex2hy41.jpg', 'general');
+
+INSERT INTO memes (title, meme, category) VALUES ('they will never code as well as my trash', 'https://i.redd.it/a5qdc8jie1351.jpg', 'automation');
+
+INSERT INTO memes (title, meme, category) VALUES ('i can do that', 'https://external-preview.redd.it/YksSMu5GtpX5qcSqyE7JX65IP-xDoGTLJu_NXEzgr-E.png?auto=webp&s=8de814a52ae40831e0d5b62159b9a696ba7a8fd5', 'automation');
+
+INSERT INTO memes (title, meme, category) VALUES ('i have to do it', 'https://i.redd.it/myd50mpyl8351.jpg', 'coder logic');
+
+INSERT INTO memes (title, meme, category) VALUES ('i should be certified', 'https://i.redd.it/60xwyyqy98d51.jpg', 'google');
+
+INSERT INTO memes (title, meme, category) VALUES ('idiot', 'https://i.redd.it/a2n75ff2gvk41.jpg', 'student');
+
+INSERT INTO memes (title, meme, category) VALUES ('smart = google', 'https://i.redd.it/tozls5d3wsi51.jpg', 'css');
+
